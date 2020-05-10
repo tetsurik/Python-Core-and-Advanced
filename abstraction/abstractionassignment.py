@@ -13,22 +13,22 @@ class TouchScreenLaptop(ABC):
 class HP(TouchScreenLaptop):
 
     def scroll(self):
-        print("This shpit scrooooollsss")
+        print("This HP scrolls")
 
 class DELL(TouchScreenLaptop):
 
     def scroll(self):
-        print("WOAH DUDELL this scroooooooll")
+        print("This DELL scrolls")
 
 class HPNotebook(HP):
 
     def click(self):
-        print("CLICK CLICK MOTHERFUCKERRR")
+        print("This HP clicks")
 
 class DELLNotebook(DELL):
 
     def click(self):
-        print("I LIKE THE WAY YOU CLICK")
+        print("This DELL clicks")
 
 h = HPNotebook()
 d = DELLNotebook()
